@@ -1,0 +1,34 @@
+@import '../../vars.scss';
+
+.navbar {
+    height: 50px;
+    background-color: $main-color;
+    display: flex;
+    justify-content: center;
+    padding: 3.5rem 0 2rem 0;
+
+    .navContainer {
+        width: 100%;
+        max-width: 1024px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        font-weight: 400;
+        font-size: 2rem;
+    }
+    .navButton {
+        margin-left: 10px;
+        border: none;
+        outline: none;
+        padding: 0.5rem 1.5rem;
+        color: $main-color;
+        font-size: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
+

@@ -1,0 +1,31 @@
+$main-color: #003580;
+$main-button-color : #0071c2;
+$second-color : #febb02;
+$green-color: #008009;
+
+
+*input {
+    border: none;
+    outline: none;
+}
+
+*button {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    padding: 0.8rem;
+    background: $main-button-color;
+    color: #fff;
+    font-size: 18px;
+    transition: 300ms;
+    font-weight: 500;
+
+    &:hover {
+        background: $main-color;
+    }
+}
